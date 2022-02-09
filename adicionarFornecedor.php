@@ -21,8 +21,19 @@
 
  <div class ="container"  style= "margin-top:40px; width: 500px;" >
   <h4>Cadastro Fornecedor</h4>
-  <form action ="_inserirCategoria.php" method="post" style="margin-top: 20px">
+  <form action ="_inserirFornecedor.php" method="post" style="margin-top: 20px">
       <label>Fornecedor</label>
+      <div class="form-group">
+				<input type ="text" name="nome_fornecedor" class="form-control" placeholder="Digite o nome do Fornecedor" autocomplete="off">      	
+      </div>
+      <div style="text-align:right">
+      	<button type ="submit" id = "botao" class="btn btn-sm">Cadastrar</button>
+      </div>
 
+      <div style = "text-align: right; margin-top: 10px">
+         <a href ="index.php" role ="button" class ="btn btn-sm btn-primary">Voltar</a> 
+       </div>
+
+  </form>
 </body>
 </html>
